@@ -1,7 +1,4 @@
-# Дипломная работа - Ву Ба Шанг - ИВТ17
-
-(Fork and edit from repo: https://github.com/davidsandberg/facenet)
-
+# Дипломная работа - Ву Ба Шанг - ИВТ-17
 ### 1. Собирать данные:
 Собирать данные и поместить их в ```your_face```, как показано ниже:
 ```buildoutcfg
