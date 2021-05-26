@@ -61,6 +61,9 @@ pip install tensorflow==1.15
 ```
 ##### Проверьте установку:
 ```
+python -c "import tensorflow as tf; print(tf.__version__)"
+```
+```
 python -c "import tensorflow as tf;print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
 ```
 ### 3. Скачать pretrain model:
