@@ -28,41 +28,41 @@ your_face/
 │   ├── ...
 │   ├── Kononov_0015.jpg
 │   └── Kononov_0020.jpg
-└── Kychkin
-    ├── Kychkin_0001.jpg
-    ├── Kychkin_0002.jpg
+└── Vubasang
+    ├── Vubasang_0001.jpg
+    ├── Vubasang_0002.jpg
     ├── ...
-    ├── Kychkin_0015.jpg
-    └── Kychkin_0016.jpg
+    ├── Vubasang_0035.jpg
+    └── Vubasang_0036.jpg
 ```
 
 ### 2. Установить requirements:
 Установить requirements ```pip install -r requirements.txt```
-## Как установить tensorflow==1.15.0???
-# Создайте новую виртуальную среду, выбрав интерпретатор Python и .\venv каталог .\venv для его хранения:
+#### Как установить tensorflow==1.15.0???
+##### Создайте новую виртуальную среду, выбрав интерпретатор Python и .\venv каталог .\venv для его хранения:
 ```
 python -m venv --system-site-packages .\venv
 ```
-# Активируйте виртуальную среду:
+##### Активируйте виртуальную среду:
 ```
 .\venv\Scripts\activate
 ```
-# Устанавливайте пакеты в виртуальной среде, не влияя на настройку хост-системы. Начните с обновления pip :
+##### Устанавливайте пакеты в виртуальной среде, не влияя на настройку хост-системы. Начните с обновления pip :
 ```
 pip install --upgrade pip
 ```
 ```
 pip list
 ```
-# И чтобы выйти из виртуальной среды позже:
+##### И чтобы выйти из виртуальной среды позже:
 ```
 deactivate
 ```
-# Установка:
+##### Установка:
 ```
 pip install tensorflow==1.15
 ```
-# Проверьте установку:
+##### Проверьте установку:
 ```
 python -c "import tensorflow as tf;print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
 ```
