@@ -91,7 +91,7 @@ train('face_align/', 'models/20180402-114759.pb', 'models/your_model.pkl')
 Запустить ```detection.py```
 ```python
 if __name__ == '__main__':
-    run('models', 'models/your_model.pkl', video_file='demo.mp4', output_file='demo.avi')
+    run('models', 'models/your_model.pkl', video_file='ivt17.mp4', output_file='ivt17.avi')
 ```
 
 ```video_file=None```, если вы хотите запустить внутреннюю камеру.
